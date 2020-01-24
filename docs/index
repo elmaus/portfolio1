@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+    <link rel="stylesheet" href="css/stylesheet.css">
+</head>
+<body>
+    <div class="header-box">
+        <div class="header">
+            <img SRC="#">
+            <div class="title">
+                <h1 class="name">SAMUEL CAMUS</h1>
+                <p class="tag">FAMILY LAW FIRM</p>
+            </div>
+            <ul class="nav-var">
+                <li><a class="nav" href="#">HOME</a></li>
+                <li><a class="nav" href="#">ABOUT</a></li>
+                <li><a class="nav" href="#">PRACTICES</a></li>
+                <li><a class="nav" href="#">OUR LAWYERS</a></li>
+                <li><a class="nav" href="#">NEWS</a></li>
+                <li><a class="nav" href="#">CONTACTS</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="body-box1">
+        <div class="content">
+            <div class="small-content">
+                <h1>Lorem ipsum dolor sit amet...</h1>
+                <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean porta neque est</h2>
+            </div>
+            <div class="image-box">
+                <img src="images/law.png" width="700" style="margin:0; padding:" >
+            </div>
+
+        </div>
+
+    </div>
+    <div class="body-box2">
+        <div class="content2">
+            <div class="big-content">
+                <h1>Lorem ipsum dolor sit amet</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean porta neque est, eu sodales nulla mollis sit amet. Ut mollis pretium sodales. Nulla tempus ante vel sem tristique feugiat. Duis consequat sollicitudin nisl, eget sollicitudin ante sagittis ut. Praesent rhoncus, mi porttitor consequat vestibulum, urna elit dapibus mauris, vel vestibulum nunc nisl eu ligula. Donec nec nisi et arcu scelerisque consectetur at a nisi.</p>
+            </div>
+            <div class="testimonial-box">
+                <h3>Lorem ipsum dolor</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean porta neque est, eu sodales nulla mollis sit amet</p>
+                <br>
+                <p class="said">John Doe</p>
+            </div>
+        </div>
+    </div>
+    <div class="body-box3">
+        <div class="body3-title">
+            <h3>Lorem ipsum dolor sit amet</h3>
+        </div>
+        <div class="content3">
+            <div class="gallery-box">
+                <div class="picture-box">
+                    <img src="images/pict1.png" width="200" height="150">
+                </div>
+                <p class="img-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean porta neque est,</p>
+                <button>READ MORE</button>
+            </div>
+            <div class="gallery-box">
+                <div class="picture-box">
+                    <img src="images/pict2.png" width="200" height="150">
+                </div>
+                <p class="img-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean porta neque est,</p>
+                <button>READ MORE</button>
+
+            </div>
+            <div class="gallery-box">
+                <div class="picture-box">
+                    <img src="images/pict3.png" width="200" height="150">
+                </div>
+                <p class="img-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean porta neque est,</p>
+                <button>READ MORE</button>
+
+            </div>
+            <div class="gallery-box">
+                <div class="picture-box">
+                    <img src="images/pict4.png" width="200" height="150">
+                </div>
+                <p class="img-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean porta neque est,</p>
+                <button>READ MORE</button>
+            </div>
+
+        </div>
+    </div>
+    <div class="footer-box">
+        <div class="footer-container">
+            <div class="footer-child">
+                <h3>Lorem ipsum dolor sit amet</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean porta neque est, eu sodales nulla mollis sit amet. Ut mollis pretium sodales. Nulla tempus ante vel sem tristique feugiat.</p>
+            </div>
+            <div class="footer-child">
+                <h3>Lorem ipsum dolor sit amet</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean porta neque est, eu sodales nulla mollis sit amet. Ut mollis pretium sodales. Nulla tempus ante vel sem tristique feugiat.</p>
+            </div>
+            <div class="footer-child">
+                <h3>Lorem ipsum dolor sit amet</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean porta neque est, eu sodales nulla mollis sit amet. Ut mollis pretium sodales. Nulla tempus ante vel sem tristique feugiat.</p>
+                <button>SEND EMAIL</button>
+            </div>
+        </div>
+        <p class="copy">Copyright 2020</p>
+    </div>
+</body>
+</html>
