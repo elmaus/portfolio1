@@ -141,8 +141,9 @@ ul a:hover {
     padding:20px 20px 20px 20px;
 }
 .content2 {
-    display:flex;
-    width:80%;
+    display:grid;
+    grid-template-columns:100%;
+    width:98%;
     margin:auto;
 }
 .big-content {
@@ -486,6 +487,9 @@ i {
         }
     .small-content {
         display: inline;
+        }
+    .content2 {
+        grid-template-columns:65% 35%;
         }
 }
     
