@@ -151,12 +151,13 @@ ul a:hover {
 .big-content {
     position:relative;
     justify-content:center;
-    margin-right:40px;
+    margin:auto;
 }
 
 .testimonial-box {
     position:relative;
     border-top:1px dashed #1B4F72;
+    margin:auto;
 }
 
 .said {
