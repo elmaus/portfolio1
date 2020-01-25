@@ -473,5 +473,9 @@ i {
     .header {
         grid-template-columns:45% 55%;
       }
+    .nav-var {
+        width:100%;
+        margin-top:20px;
+        }
 }
     
