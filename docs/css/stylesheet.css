@@ -143,20 +143,20 @@ ul a:hover {
 .content2 {
     display:grid;
     grid-template-columns:100%;
+    grid-gap:20px;
+    justify-content:center;
     width:98%;
     margin:auto;
 }
 .big-content {
     position:relative;
-    width:65%;
+    justify-content:center;
     margin-right:40px;
 }
 
 .testimonial-box {
     position:relative;
-    width:35%;
-    padding-left:20px;
-    border-left:1px dashed #1B4F72;
+    border-top:1px dashed #1B4F72;
 }
 
 .said {
@@ -488,6 +488,8 @@ i {
         }
     .content2 {
         grid-template-columns:65% 35%;
-        }
+        } 
+    .testimonial-box {
+       border:2px dotted #EAEDED;
 }
     
