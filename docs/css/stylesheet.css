@@ -180,7 +180,7 @@ ul a:hover {
 .content3 {
     display:grid;
     grid-template-columns:1fr;
-    grid-gap:10px;
+    grid-gap:20px;
     width:98%;
     margin:auto;
 }
@@ -197,6 +197,8 @@ body3-title h3 {
 }
 .gallery-box {
     padding:10px;
+    border-bottom:2px dotted #EAEDED;
+    margin-bottom:10px;
 }
 
 .picture-box {
@@ -214,7 +216,7 @@ body3-title h3 {
 }
 
 .picture-box img {
-    width:100%;
+    width:70%;
     border-radius:5px;
     height:auto;
     opacity: 0.5;
@@ -498,6 +500,9 @@ i {
     .content3 {
        grid-template-columns: auto auto auto auto;
        width:80%;
+       } 
+    .picture-box img {
+       width:100%;
        }
 }
     
