@@ -17,7 +17,8 @@ body {
 }
 
 .header {
-    display:flex;
+    display:grid;
+    grid-template-columns:auto;
     color:#7FB3D5;
     text-shadow:1px 1px #1C2833;
     width:85%;
@@ -467,3 +468,10 @@ i {
     color:#34495E;
     text-align:center;
 }
+
+@media (max-width: 900px) {
+    .header {
+        grid-template-columns:45% 55%;
+      }
+}
+    
