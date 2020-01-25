@@ -129,7 +129,7 @@ ul a:hover {
     position:relative;
     bottom:0px;
     width:100%;
-    margin-bottom: 0px;
+    margin: auto auto 0px auto;
 }
 
 .body-box2 {
