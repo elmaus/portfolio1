@@ -147,14 +147,12 @@ ul a:hover {
     margin:auto;
 }
 .big-content {
-    display:inline;
     position:relative;
     width:65%;
     margin-right:40px;
 }
 
 .testimonial-box {
-    display:inline;
     position:relative;
     width:35%;
     padding-left:20px;
