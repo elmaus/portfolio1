@@ -126,6 +126,7 @@ ul a:hover {
   padding: 0;
 }
 .image-box img {
+    display:block;
     position:relative;
     bottom:0px;
     width:100%;
