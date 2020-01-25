@@ -469,7 +469,7 @@ i {
     text-align:center;
 }
 
-@media (max-width: 900px) {
+@media (min-width: 900px) {
     .header {
         grid-template-columns:45% 55%;
       }
