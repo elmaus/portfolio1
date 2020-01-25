@@ -179,9 +179,9 @@ ul a:hover {
 }
 .content3 {
     display:grid;
-    grid-template-columns: auto auto auto auto;
+    grid-template-columns: 100%;
     grid-gap:10px;
-    width:80%;
+    width:98%;
     margin:auto;
 }
 
@@ -494,6 +494,10 @@ i {
         } 
     .testimonial-box {
        border:2px dotted #EAEDED;
+       }
+    .content3 {
+       grid-template-columns: auto auto auto auto;
+       width:80%;
        }
 }
     
