@@ -107,7 +107,6 @@ ul a:hover {
 }
 
 .small-content {
-    display:inline;
     color:#34495E;
     justify-content:center;
     padding:60px 30px;
@@ -482,5 +481,9 @@ i {
     .content {
         width:80%;
         grid-template-cokumns:auto 60%;
+        }
+    .small-content {
+        display: inline;
+        }
 }
     
