@@ -96,8 +96,8 @@ ul a:hover {
 
 .content {
     display:grid;
-    grid-template-columns:auto 600px;
-    width:80%;
+    grid-template-columns:100%;
+    width:98%;
     margin:auto;
     background:#EAEDED;
     border:1px solid white;
@@ -478,5 +478,9 @@ i {
         width:60%;
         padding-top:0px;
         }
+  
+    .content {
+        width:80%;
+        grid-template-cokumns:auto 60%;
 }
     
