@@ -39,9 +39,10 @@ body {
 .nav-var {
     position:relative;
     display:inline;
-    width:60%;
+    width:100%;
     height:100%;
     margin:auto;
+    padding-top:20px;
     padding: 0px;
 }
 
@@ -474,8 +475,8 @@ i {
         grid-template-columns:45% 55%;
       }
     .nav-var {
-        width:100%;
-        margin-top:20px;
+        width:60%;
+        padding-top:0px;
         }
 }
     
