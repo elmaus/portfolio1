@@ -18,7 +18,7 @@ body {
 
 .header {
     display:grid;
-    grid-template-columns:auto;
+    grid-template-columns:100%;
     color:#7FB3D5;
     text-shadow:1px 1px #1C2833;
     width:85%;
