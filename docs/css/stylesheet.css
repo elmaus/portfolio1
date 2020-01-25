@@ -150,12 +150,14 @@ ul a:hover {
 }
 .big-content {
     position:relative;
+    width:100%;
     justify-content:center;
     margin:auto;
 }
 
 .testimonial-box {
     position:relative;
+    width:100%;
     border-top:1px dashed #1B4F72;
     margin:auto;
 }
@@ -492,5 +494,6 @@ i {
         } 
     .testimonial-box {
        border:2px dotted #EAEDED;
+       }
 }
     
