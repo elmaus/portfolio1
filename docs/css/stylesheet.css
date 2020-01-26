@@ -27,10 +27,21 @@ body {
 
 }
 
+.company-name {
+    display:grid;
+    grid-template-columns:70px auto;
+
+}
+.logo {
+    width:80%;
+    height:80%;
+    margin:0px;
+    padding:0px;
+    }
+
 .title {
     position:relative;
-    display:inline;
-    width:30%;
+    width:100%;
     justify-content:center;
 }
 .title h1 p {
@@ -492,8 +503,21 @@ i {
     .header {
         grid-template-columns:45% 55%;
       }
+
+    .company-name {
+        display:grid;
+        justify-content:center;
+        grid-gap:3px;
+        grid-template-columns:70px auto;
+        margin:auto;
+    }
+    .logo {
+        width:100%;
+        height:100%;
+        }
     .nav-var {
         width:100%;
+        justify-content:center;
         margin:auto;
         padding-top:30px;
         }
