@@ -18,8 +18,7 @@ body {
 
 .header {
     display:grid;
-    grid-template-columns:100%;
-    grid-gap:20px;
+    grid-template-columns:auto 70px;
     color:#7FB3D5;
     text-shadow:1px 1px #1C2833;
     width:98%;
@@ -29,7 +28,8 @@ body {
 
 .company-name {
     display:grid;
-    grid-template-columns:30px auto;
+    grid-gap:5px;
+    grid-template-columns:50px auto;
     width:75%;
     margin:auto;
 
@@ -38,18 +38,27 @@ body {
     position:relative;
     right:0px;
     width:100%;
-    height:100%;
-    margin-right:0px;
+    height:auto;
+    margin:auto;
     padding:0px;
-    text-align:right;
+    text-align:center;
     }
 
 .title {
     position:relative;
     width:100%;
     justify-content:center;
+
 }
-.title h1 p {
+.title h1 {
+    font-size:20px;
+    padding:0px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.title p {
+    font-size:15px;
     padding:0px;
     margin:0px;
 }
@@ -158,6 +167,13 @@ ul a:hover {
     text-align:center;
 }
 
+.small-content h1 {
+    padding-bottom:30px;
+}
+
+.small-content h2 {
+    font-size:19px;
+}
 .content img {
     display:block;
     position:relative;
@@ -532,8 +548,9 @@ i {
 
 @media only screen and (min-width: 900px) {
     .header {
-        grid-template-columns:45% 55%;
+        grid-template-columns:50% 50%;
         width:85%;
+        grid-gap:0px;
       }
 
     .togler {
@@ -547,16 +564,21 @@ i {
         grid-template-columns:70px auto;
         margin:auto;
     }
+
+    .company-name h1 {
+        font-size:25px;
+        padding-top:15px;
+    }
     .logo {
         width:100%;
-        height:100%;
+        height:auto;
         }
     .nav-var {
         width:100%;
-        display:inline;
+        display:flex;
         justify-content:center;
+        align-items:center;
         margin:auto;
-        padding-top:30px;
         }
 
     .content {
@@ -566,6 +588,10 @@ i {
     .small-content {
         display: inline;
         }
+
+    .content img {
+        padding-top:40px;
+    }
     .content2 {
         grid-template-columns:65% 35%;
         width:80%;
